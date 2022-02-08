@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <include
+                    android:id="@+id/product_display1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout_product_display_heading">
+                </include>
+                <include
+                    android:id="@+id/first_image_product"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    layout="@layout/layout_single_image"
+                    android:layout_marginTop="10dp"/>
+
+                <include
+                    android:id="@+id/second_image_product"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    layout="@layout/layout_single_image"
+                    android:layout_marginTop="10dp"/>
+
+                <include
+                    android:id="@+id/third_image_product"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    layout="@layout/layout_single_image"
+                    android:layout_marginTop="10dp"/>
+
+                <include
+                    android:id="@+id/fourth_image_product"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    layout="@layout/layout_single_image"
+                    android:layout_marginTop="10dp"/>
+
+                <include
+                    android:id="@+id/product_display2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout_product_display_heading">
+                </include>
+
+                <include
+                    android:id="@+id/fifth_image_product"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    layout="@layout/layout_single_image"
+                    android:layout_marginTop="10dp"/>
+
+                <include
+                    android:id="@+id/product_display3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout_product_display_heading">
+                </include>
+
+                <include
+                    android:id="@+id/sixth_image_product"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    layout="@layout/layout_single_image"
+                    android:layout_marginTop="10dp"/>
+
+                <include
+                    android:id="@+id/product_display4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout_product_display_heading">
+                </include>
+
+                <include
+                    android:id="@+id/seveth_image_product"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    layout="@layout/layout_single_image"
+                    android:layout_marginTop="10dp"/>
+
+                <include
+                    android:id="@+id/eight_image_product"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    layout="@layout/layout_single_image"
+                    android:layout_marginTop="10dp"/>
+
+                <include
+                    android:id="@+id/ninth_image_product"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    layout="@layout/layout_single_image"
+                    android:layout_marginTop="10dp"/>
+
+                <include
+                    android:id="@+id/tenth_image_product"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    layout="@layout/layout_single_image"
+                    android:layout_marginTop="10dp"/>
+
+
+                <include
+                    android:id="@+id/product_display5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout_product_display_heading">
+                </include>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide_start_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.00"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide_end_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="1.0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
