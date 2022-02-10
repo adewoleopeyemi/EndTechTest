@@ -21,7 +21,7 @@
                 android:textSize="20sp"
                 android:id="@+id/text_header"
                 tools:text="John Elliot"
-                android:fontFamily="@font/andika"
+                android:fontFamily="@font/fredoka_one"
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
             <TextView
@@ -30,7 +30,7 @@
                 android:textSize="16sp"
                 android:id="@+id/text_subheader"
                 tools:text="Online now"
-                android:fontFamily="@font/andika"
+                android:fontFamily="@font/fredoka_one"
                 android:textColor="@color/colorgrey"/>
         </LinearLayout>
     </LinearLayout>

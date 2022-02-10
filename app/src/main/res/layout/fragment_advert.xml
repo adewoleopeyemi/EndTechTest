@@ -1,23 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         tools:context=".domain.model.SingleAdFragment">
 
         <ImageView
             android:id="@+id/single_ad"
             android:layout_width="0dp"
-            android:layout_height="0dp"
-            app:layout_constraintDimensionRatio="H,0.95"
+            android:layout_height="450dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@color/colorgrey"
             android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.37"
+            tools:text="VETEMENTS"
+            android:letterSpacing="0.3"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/sub_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/heading"
+            app:layout_constraintTop_toBottomOf="@id/heading"
+            app:layout_constraintStart_toStartOf="@id/heading"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:text="Discover the Latest Arrivals."
+            android:textAlignment="center"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

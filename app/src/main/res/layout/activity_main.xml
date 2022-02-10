@@ -40,8 +40,8 @@
 
                     <androidx.viewpager.widget.ViewPager
                         android:layout_width="0dp"
-                        android:layout_height="400dp"
-                        android:id="@+id/trending_vp"
+                        android:layout_height="450dp"
+                        android:id="@+id/promoted_ad"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintEnd_toEndOf="parent" />
@@ -49,12 +49,12 @@
                     <me.relex.circleindicator.CircleIndicator
                         android:id="@+id/indicator"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="50dp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintVertical_bias="0.8"/>
+                        app:layout_constraintVertical_bias="0.9"/>
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </com.google.android.material.appbar.CollapsingToolbarLayout>
@@ -63,6 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fillViewport="true"
+            android:layout_marginTop="10dp"
             app:layout_behavior="@string/appbar_scrolling_view_behavior">
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
